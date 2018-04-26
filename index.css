@@ -1,0 +1,55 @@
+body {
+  font-family: helvetica;
+  background-color: lightgrey;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 75px;
+  text-align: center;
+  background-color: white;
+}
+
+img {
+  height: 350px;
+  width: 350px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+}
+
+.dice {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border: solid black 4px;
+  border-radius: 10px;
+}
+
+.square {
+  height: 115px;
+  width: 114px;
+  display: inline-block;
+}
+
+.dot {
+  margin: 0 auto;
+  border-radius: 100%;
+  height: 74px;
+  width: 75px;
+  margin-top: 18px;
+  background-color: black;
+}
